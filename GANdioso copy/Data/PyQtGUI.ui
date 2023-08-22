@@ -1,0 +1,3077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1520</width>
+    <height>937</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QTabWidget" name="Tabs">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>10</y>
+      <width>1521</width>
+      <height>931</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string notr="true"/>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 14pt &quot;Helvetica Neue&quot;;
+
+
+</string>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="library_tab">
+     <property name="styleSheet">
+      <string notr="true">QTabWidget {
+    background-color: transparent;
+    border: none;
+}
+
+QTabWidget::pane {
+    border: none;
+}
+</string>
+     </property>
+     <attribute name="title">
+      <string>Library</string>
+     </attribute>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>20</y>
+        <width>891</width>
+        <height>751</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(0, 0, 0, 0);
+</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustToContents</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>869</width>
+         <height>1084</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QGridLayout" name="gridLayout" rowstretch="1,1,1,1,1,1,1,1" columnstretch="1,1,1,1,1">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetMinAndMaxSize</enum>
+          </property>
+          <item row="4" column="3">
+           <widget class="QPushButton" name="slot_24">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="4">
+           <widget class="QPushButton" name="slot_20">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="slot_11">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="3">
+           <widget class="QPushButton" name="slot_39">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="slot_16">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="slot_23">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3">
+           <widget class="QPushButton" name="slot_34">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4">
+           <widget class="QPushButton" name="slot_15">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QPushButton" name="slot_29">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1">
+           <widget class="QPushButton" name="slot_37">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="4">
+           <widget class="QPushButton" name="slot_30">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QPushButton" name="slot_5">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QPushButton" name="slot_32">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="slot_1">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../../Desktop/SDD Major Project  Files/GUI Icons/Cube.png</normaloff>../../Desktop/SDD Major Project  Files/GUI Icons/Cube.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QPushButton" name="slot_18">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="4">
+           <widget class="QPushButton" name="slot_35">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QPushButton" name="slot_26">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="slot_3">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="slot_6">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QPushButton" name="slot_31">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="slot_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QPushButton" name="slot_36">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="slot_7">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="slot_14">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="4">
+           <widget class="QPushButton" name="slot_40">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="4">
+           <widget class="QPushButton" name="slot_25">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QPushButton" name="slot_27">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="slot_21">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="2">
+           <widget class="QPushButton" name="slot_38">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="slot_12">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="2">
+           <widget class="QPushButton" name="slot_33">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QPushButton" name="slot_22">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QPushButton" name="slot_9">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QPushButton" name="slot_19">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QPushButton" name="slot_28">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="slot_2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QPushButton" name="slot_17">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="slot_8">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="slot_13">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QPushButton" name="slot_10">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <property name="autoRepeat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="library_pdf_label">
+      <property name="geometry">
+       <rect>
+        <x>1030</x>
+        <y>30</y>
+        <width>441</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="time_remaining_label">
+      <property name="geometry">
+       <rect>
+        <x>1090</x>
+        <y>700</y>
+        <width>58</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;
+</string>
+      </property>
+      <property name="text">
+       <string>0:00</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="slots_occupied_display">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>0</y>
+        <width>144</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>/5</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="library_prev_pg">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>690</y>
+        <width>21</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="library_next_pg">
+      <property name="geometry">
+       <rect>
+        <x>1270</x>
+        <y>690</y>
+        <width>21</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="library_pg_num_label">
+      <property name="geometry">
+       <rect>
+        <x>1220</x>
+        <y>660</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Page 0/0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>1040</x>
+        <y>730</y>
+        <width>441</width>
+        <height>42</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="play_button">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Play</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="open_score_button">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Open Score</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="delete_button_pushbutton">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Delete</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="current_piece_textlabel">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>10</y>
+        <width>58</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="library_info_button">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>31</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>i</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="generate_tab">
+     <attribute name="title">
+      <string>Generate</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>100</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Number of Bars</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>150</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Title</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="scale_combobox">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>220</y>
+        <width>161</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 14pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>C Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>E Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F# Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bb Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Eb Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ab Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Db Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Gb Major</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bb Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Eb Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>E Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F# Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C# Minor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G# Minor</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>220</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Scale</string>
+      </property>
+     </widget>
+     <widget class="QSlider" name="dissonance_slider">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>280</y>
+        <width>161</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">    QSlider::groove:horizontal {
+        background-color:= rgb(255, 255, 255)
+    }
+
+ QSlider::handle:horizontal {
+        background-color:= rgb(255, 255, 255)
+    }
+</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>270</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string> Dissonance</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="titleparameter_textedit">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>150</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 14pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="generate_error_message">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>180</y>
+        <width>201</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 14pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="generated_piece_preview">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>10</y>
+        <width>561</width>
+        <height>781</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string> Label</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="save_to_library_button">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>720</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Save To Library</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="preview_play_button">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>520</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Play</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="preview_time_label">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>580</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>0:00</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="preview_piece_title">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>490</y>
+        <width>201</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="preview_next_pg">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>650</y>
+        <width>21</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="preview_prev_pg">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>650</y>
+        <width>21</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="preview_pg_num_label">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>610</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Page n/k</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="blurred_label">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>10</y>
+        <width>491</width>
+        <height>781</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(65, 65, 65, 150);
+border-radius: 10
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="generate_pushbutton">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>400</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Generate</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>460</y>
+        <width>431</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>370</y>
+        <width>431</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_4">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>690</y>
+        <width>431</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>40</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 26pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Parameters</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="numbars_spinbox">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>100</y>
+        <width>51</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string extracomment="Tooltip">Tooltip</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 14pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5</string>
+      </property>
+      <property name="minimum">
+       <number>10</number>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+      <property name="singleStep">
+       <number>5</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="disabled_buttons_label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>480</y>
+        <width>471</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(170, 170, 170, 128);
+border-radius: 10
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="library_full_label">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>400</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 14pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Your Library is full!</string>
+      </property>
+     </widget>
+     <widget class="QSlider" name="note_density_slider">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>330</y>
+        <width>161</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">    QSlider::groove:horizontal {
+        background-color:= rgb(255, 255, 255)
+    }
+
+ QSlider::handle:horizontal {
+        background-color:= rgb(255, 255, 255)
+    }
+</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>320</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 18pt &quot;Helvetica Neue&quot;;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Note Density</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="generate_info_button">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>31</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 700 18pt &quot;Helvetica Neue&quot;;
+	color: white;
+	background-color: rgba(101, 101, 101, 191);
+	border-radius: 5
+}
+QPushButton:hover{
+	color: white;
+	background-color: rgba(117, 117, 117, 191);
+	border-radius: 5
+}
+QPushButton:pressed{
+	color: white;
+	background-color: rgba(130, 130, 130, 191);
+	border-radius: 5
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>i</string>
+      </property>
+     </widget>
+     <zorder>blurred_label</zorder>
+     <zorder>label</zorder>
+     <zorder>label_2</zorder>
+     <zorder>scale_combobox</zorder>
+     <zorder>label_4</zorder>
+     <zorder>dissonance_slider</zorder>
+     <zorder>label_5</zorder>
+     <zorder>titleparameter_textedit</zorder>
+     <zorder>generate_error_message</zorder>
+     <zorder>generated_piece_preview</zorder>
+     <zorder>save_to_library_button</zorder>
+     <zorder>preview_play_button</zorder>
+     <zorder>preview_time_label</zorder>
+     <zorder>preview_piece_title</zorder>
+     <zorder>preview_next_pg</zorder>
+     <zorder>preview_prev_pg</zorder>
+     <zorder>preview_pg_num_label</zorder>
+     <zorder>generate_pushbutton</zorder>
+     <zorder>line</zorder>
+     <zorder>line_2</zorder>
+     <zorder>line_4</zorder>
+     <zorder>label_3</zorder>
+     <zorder>numbars_spinbox</zorder>
+     <zorder>disabled_buttons_label</zorder>
+     <zorder>library_full_label</zorder>
+     <zorder>note_density_slider</zorder>
+     <zorder>label_6</zorder>
+     <zorder>generate_info_button</zorder>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="background_label">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-4</y>
+      <width>1531</width>
+      <height>941</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Background Image.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>background_label</zorder>
+   <zorder>Tabs</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset>
+     <normaloff>../GUI Icons/Play Button.png</normaloff>../GUI Icons/Play Button.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
